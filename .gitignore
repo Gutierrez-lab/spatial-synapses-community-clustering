@@ -1,0 +1,25 @@
+# ----- OS / editor junk -----
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ----- Large downloaded connectome data -----
+# Raw FlyWire FAFB v783 CSVs + derived master table (recreated by
+# Flywire_FAFB/build_fafb_master.py; too large to commit)
+data/fafb_v783/
+Flywire_FAFB/fafb_v783/
+fafb_v783/
+
+# Any *.part files from interrupted downloads
+*.part
